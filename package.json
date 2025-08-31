@@ -9,15 +9,27 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tiptap-pro/provider": "^3.2.0",
+    "@tiptap/extension-collaboration": "^3.3.0",
+    "@tiptap/extension-document": "^3.3.0",
+    "@tiptap/extension-paragraph": "^3.3.0",
+    "@tiptap/extension-text": "^3.3.0",
+    "@tiptap/pm": "^3.3.0",
+    "@tiptap/react": "^3.3.0",
+    "@tiptap/starter-kit": "^3.3.0",
+    "@tiptap/y-tiptap": "^3.0.0",
+    "next": "15.5.2",
     "react": "19.1.0",
+    "react-aria": "^3.43.1",
     "react-dom": "19.1.0",
-    "next": "15.5.2"
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.27"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
